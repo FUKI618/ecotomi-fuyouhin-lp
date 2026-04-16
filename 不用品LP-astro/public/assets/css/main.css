@@ -2,90 +2,54 @@
 .reveal{opacity:1!important;transform:none!important}.count-up{opacity:1!important;transform:none!important}
 .cta-phone{background-color:#e8962e!important}.cta-phone:hover{background-color:#d4850a!important}
 @keyframes glow-pulse-phone{0%,to{box-shadow:0 0 8px #e8962e4d,0 4px 16px #e8962e26}50%{box-shadow:0 0 18px #e8962e80,0 4px 24px #e8962e40}}.cta-phone.cta-glow{animation:2.5s ease-in-out infinite glow-pulse-phone}.cta-phone.cta-glow:hover{animation:none;box-shadow:0 0 24px #e8962e99}
-
 /* ═══ LUXURY UPGRADE ═══ */
-
 /* Hero dramatic enhancements */
 .hero-luxury{position:relative;min-height:90vh!important}
 .hero-luxury::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 20% 50%,rgba(58,140,74,0.15) 0%,transparent 60%),radial-gradient(ellipse at 80% 20%,rgba(240,200,80,0.08) 0%,transparent 50%);z-index:1;pointer-events:none}
 .hero-luxury::after{content:'';position:absolute;bottom:0;left:0;right:0;height:120px;background:linear-gradient(to top,var(--color-dark),transparent);z-index:1;pointer-events:none}
-
 /* Gold shimmer text */
 .text-gold-shimmer{background:linear-gradient(90deg,#3a8c4a 0%,#4aac5a 25%,#f0c850 50%,#4aac5a 75%,#3a8c4a 100%);background-size:400%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:gold-shimmer 4s ease-in-out infinite}
 @keyframes gold-shimmer{0%,100%{background-position:0%}50%{background-position:100%}}
-
 /* Floating particles */
-.particle-field{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0}
-.particle-field span{position:absolute;border-radius:50%;animation:float-particle linear infinite}
-.particle-field span:nth-child(1){width:3px;height:3px;background:#3a8c4a;left:10%;bottom:-10px;animation-duration:8s;opacity:.4}
-.particle-field span:nth-child(2){width:5px;height:5px;background:#f0c850;left:25%;bottom:-10px;animation-duration:12s;animation-delay:1s;opacity:.3}
-.particle-field span:nth-child(3){width:4px;height:4px;background:#3a8c4a;left:40%;bottom:-10px;animation-duration:9s;animation-delay:2s;opacity:.35}
-.particle-field span:nth-child(4){width:6px;height:6px;background:#f0c850;left:55%;bottom:-10px;animation-duration:11s;animation-delay:.5s;opacity:.25}
-.particle-field span:nth-child(5){width:3px;height:3px;background:#4a9c5a;left:70%;bottom:-10px;animation-duration:10s;animation-delay:3s;opacity:.4}
-.particle-field span:nth-child(6){width:4px;height:4px;background:#f0c850;left:85%;bottom:-10px;animation-duration:13s;animation-delay:1.5s;opacity:.2}
-.particle-field span:nth-child(7){width:5px;height:5px;background:#3a8c4a;left:15%;bottom:-10px;animation-duration:14s;animation-delay:4s;opacity:.3}
-.particle-field span:nth-child(8){width:3px;height:3px;background:#f0c850;left:60%;bottom:-10px;animation-duration:9s;animation-delay:2.5s;opacity:.35}
 @keyframes float-particle{0%{transform:translateY(0) scale(1);opacity:0}10%{opacity:.5}90%{opacity:0}100%{transform:translateY(-100vh) scale(.3);opacity:0}}
-
 /* Gold accent line */
 .gold-line{height:3px;background:linear-gradient(90deg,transparent,#f0c850,#3a8c4a,#f0c850,transparent);border:none;opacity:.6;margin:0 auto}
-
 /* Luxury card style */
 .card-luxury{background:linear-gradient(135deg,#fff 0%,#f8f9f6 100%)!important;border:1px solid #d0d4cc!important;box-shadow:0 4px 20px rgba(0,0,0,.06),0 1px 3px rgba(0,0,0,.04)!important;position:relative;overflow:hidden}
 .card-luxury::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#3a8c4a,#f0c850)}
 .card-luxury:hover{box-shadow:0 12px 40px rgba(58,140,74,.12),0 4px 12px rgba(0,0,0,.08)!important;transform:translateY(-6px)!important}
-
 /* Section divider with gold */
 .section-divider{position:relative;padding-top:2rem}
 .section-divider::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:60px;height:3px;background:linear-gradient(90deg,#3a8c4a,#f0c850);border-radius:2px}
-
 /* Hero number highlights */
 .hero-number{font-size:4rem;font-weight:900;background:linear-gradient(135deg,#f0c850,#e8962e);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;line-height:1;display:inline-block}
 .hero-number-label{font-size:.75rem;color:rgba(255,255,255,.6);margin-top:4px}
-
 /* Luxury badge */
 .badge-luxury{background:linear-gradient(135deg,rgba(58,140,74,.15),rgba(240,200,80,.1))!important;border:1px solid rgba(240,200,80,.3)!important;color:#f0c850!important}
-
 /* Trust bar gold border */
 .trust-bar-luxury{position:relative}
 .trust-bar-luxury::before,.trust-bar-luxury::after{content:'';position:absolute;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,#f0c850 30%,#3a8c4a 70%,transparent)}
 .trust-bar-luxury::before{top:0}
 .trust-bar-luxury::after{bottom:0}
-
 /* Testimonial stars glow */
 .stars-glow{text-shadow:0 0 10px rgba(240,200,80,.5)}
-
 /* Section heading luxury underline */
 .heading-luxury{position:relative;display:inline-block}
 .heading-luxury::after{content:'';position:absolute;bottom:-8px;left:50%;transform:translateX(-50%);width:40%;height:3px;background:linear-gradient(90deg,transparent,#3a8c4a,#f0c850,#3a8c4a,transparent);border-radius:2px}
-
-@media(prefers-reduced-motion:reduce){.text-gold-shimmer{animation:none}.particle-field span{animation:none;display:none}}
-
 /* ═══ OSAKA NEON STYLE ═══ */
 /* Remove particle field */
-.particle-field{display:none!important}
-
 /* Neon text glow for hero numbers */
 @keyframes neon-flicker{0%,100%{opacity:1;text-shadow:0 0 10px #f0c850,0 0 30px #f0c85066,0 0 60px #f0c85033}92%{opacity:1}93%{opacity:.8}94%{opacity:1}96%{opacity:.9}97%{opacity:1}}
 .hero-number{animation:neon-flicker 3s ease-in-out infinite}
-
 /* Dotonbori-style scrolling banner */
 @keyframes osaka-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 .osaka-banner{overflow:hidden;position:relative;background:linear-gradient(90deg,#3a8c4a,#2d6a35,#3a8c4a);border-top:2px solid #f0c850;border-bottom:2px solid #f0c850;padding:8px 0}
 .osaka-banner-inner{display:flex;gap:40px;animation:osaka-scroll 20s linear infinite;white-space:nowrap;width:max-content}
 .osaka-banner-inner span{color:#f0c850;font-weight:900;font-size:14px;letter-spacing:2px}
-
 /* Hero badge bounce */
 @keyframes bounce-in{0%{transform:scale(0.8);opacity:0}50%{transform:scale(1.05)}100%{transform:scale(1);opacity:1}}
 .badge-luxury{animation:bounce-in 0.6s ease-out,badge-pulse 2s ease-in-out 0.6s infinite}
-
 @media(prefers-reduced-motion:reduce){.hero-number{animation:none}.osaka-banner-inner{animation:none}.badge-luxury{animation:none}}
-
-/* ═══ TRUCK ANIMATION ═══ */
-@keyframes truck-drive{0%{transform:translateX(-120%)}100%{transform:translateX(120%)}}
-.truck-anim{position:absolute;bottom:10%;left:0;width:100%;height:200px;overflow:hidden;pointer-events:none;z-index:1}
-.truck-anim-inner{animation:truck-drive 14s linear infinite;width:380px;bottom:0;position:relative}
-
 /* ═══ TRUCK IN-PLACE ANIMATION ═══ */
 .hero-truck{position:absolute;right:8%;bottom:28%;z-index:3;pointer-events:none}
 @keyframes truck-idle{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
@@ -93,6 +57,5 @@
 .hero-truck svg{animation:truck-arrive 1.5s ease-out,truck-idle 2s ease-in-out 1.5s infinite}
 @media(max-width:768px){.hero-truck{right:5%;bottom:22%;transform:scale(0.6);transform-origin:bottom right}}
 @media(prefers-reduced-motion:reduce){.hero-truck svg{animation:none}}
-
 /* GPU合成最適化 */
 .hero-truck svg,.osaka-banner-inner,.badge-pulse,.cta-glow,.cta-glow-line,.hero-number{will-change:transform,opacity;transform:translateZ(0)}
