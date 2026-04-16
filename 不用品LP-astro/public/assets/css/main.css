@@ -83,5 +83,5 @@
 
 /* ═══ TRUCK ANIMATION ═══ */
 @keyframes truck-drive{0%{transform:translateX(120%)}100%{transform:translateX(-120%)}}
-.truck-anim{position:absolute;bottom:12%;right:0;left:0;height:200px;overflow:hidden;pointer-events:none;z-index:1}
-.truck-anim-inner{animation:truck-drive 18s linear infinite;position:absolute;bottom:0}
+.truck-anim{position:absolute;bottom:10%;left:0;width:100%;height:200px;overflow:hidden;pointer-events:none;z-index:1}
+.truck-anim-inner{animation:truck-drive 14s linear infinite;width:380px;bottom:0;position:relative}
