@@ -55,5 +55,5 @@
 @keyframes truck-idle{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
 @keyframes truck-arrive{0%{transform:translateX(-300px);opacity:0}100%{transform:translateX(0);opacity:1}}
 .hero-truck svg{animation:truck-arrive 1.5s ease-out,truck-idle 2s ease-in-out 1.5s infinite}
-@media(max-width:768px){.hero-truck{display:none}}
+@media(max-width:768px){.hero-truck{right:5%;bottom:22%;transform:scale(0.6);transform-origin:bottom right}}
 @media(prefers-reduced-motion:reduce){.hero-truck svg{animation:none}}
