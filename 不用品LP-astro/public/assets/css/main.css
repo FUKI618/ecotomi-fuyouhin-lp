@@ -87,7 +87,7 @@
 .truck-anim-inner{animation:truck-drive 14s linear infinite;width:380px;bottom:0;position:relative}
 
 /* ═══ TRUCK IN-PLACE ANIMATION ═══ */
-.hero-truck{position:absolute;right:8%;bottom:18%;z-index:1;pointer-events:none}
+.hero-truck{position:absolute;right:8%;bottom:18%;z-index:3;pointer-events:none}
 @keyframes truck-idle{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
 @keyframes truck-arrive{0%{transform:translateX(300px);opacity:0}100%{transform:translateX(0);opacity:1}}
 .hero-truck svg{animation:truck-arrive 1.5s ease-out,truck-idle 2s ease-in-out 1.5s infinite}
