@@ -93,3 +93,6 @@
 .hero-truck svg{animation:truck-arrive 1.5s ease-out,truck-idle 2s ease-in-out 1.5s infinite}
 @media(max-width:768px){.hero-truck{right:5%;bottom:22%;transform:scale(0.6);transform-origin:bottom right}}
 @media(prefers-reduced-motion:reduce){.hero-truck svg{animation:none}}
+
+/* GPU合成最適化 */
+.hero-truck svg,.osaka-banner-inner,.badge-pulse,.cta-glow,.cta-glow-line,.hero-number{will-change:transform,opacity;transform:translateZ(0)}
