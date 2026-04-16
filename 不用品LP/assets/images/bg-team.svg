@@ -2,20 +2,20 @@
   <defs>
     <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#1a1510"/>
-      <stop offset="40%" stop-color="#2c2420"/>
-      <stop offset="100%" stop-color="#3a2a22"/>
+      <stop offset="40%" stop-color="#0f1a2e"/>
+      <stop offset="100%" stop-color="#1a2840"/>
     </linearGradient>
     <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#3a2a22"/>
+      <stop offset="0%" stop-color="#1a2840"/>
       <stop offset="100%" stop-color="#1a1510"/>
     </linearGradient>
     <linearGradient id="truckGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#d45a2a"/>
-      <stop offset="100%" stop-color="#e47040"/>
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#2a5080"/>
     </linearGradient>
     <radialGradient id="glowCenter" cx="50%" cy="60%" r="50%">
-      <stop offset="0%" stop-color="#d45a2a" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#2c2420" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#1e3a5f" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0f1a2e" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
@@ -73,7 +73,7 @@
   <!-- Truck in background (right side) -->
   <g transform="translate(1200, 520)">
     <!-- Truck body -->
-    <rect x="0" y="60" width="380" height="160" rx="4" fill="#c04820" opacity="0.85"/>
+    <rect x="0" y="60" width="380" height="160" rx="4" fill="#152d4a" opacity="0.85"/>
     <!-- Truck cab -->
     <rect x="320" y="40" width="100" height="180" rx="6" fill="#b04018" opacity="0.85"/>
     <!-- Cab windshield -->
@@ -84,19 +84,19 @@
     <text x="160" y="128" font-family="'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="28" font-weight="bold" fill="#fff" text-anchor="middle" opacity="0.8">エコ富</text>
     <!-- Wheels -->
     <circle cx="80" cy="225" r="28" fill="#1a1510"/>
-    <circle cx="80" cy="225" r="14" fill="#2c2420"/>
+    <circle cx="80" cy="225" r="14" fill="#0f1a2e"/>
     <circle cx="300" cy="225" r="28" fill="#1a1510"/>
-    <circle cx="300" cy="225" r="14" fill="#2c2420"/>
+    <circle cx="300" cy="225" r="14" fill="#0f1a2e"/>
     <circle cx="370" cy="225" r="28" fill="#1a1510"/>
-    <circle cx="370" cy="225" r="14" fill="#2c2420"/>
+    <circle cx="370" cy="225" r="14" fill="#0f1a2e"/>
   </g>
 
   <!-- Worker silhouettes -->
   <!-- Worker 1 (front left) -->
   <g transform="translate(480, 420)" fill="#1a1510" opacity="0.9">
     <!-- Hard hat -->
-    <ellipse cx="40" cy="0" rx="32" ry="14" fill="#d45a2a" opacity="0.6"/>
-    <rect x="12" y="-8" width="56" height="14" rx="4" fill="#d45a2a" opacity="0.6"/>
+    <ellipse cx="40" cy="0" rx="32" ry="14" fill="#1e3a5f" opacity="0.6"/>
+    <rect x="12" y="-8" width="56" height="14" rx="4" fill="#1e3a5f" opacity="0.6"/>
     <!-- Head -->
     <circle cx="40" cy="20" r="22"/>
     <!-- Body (uniform) -->
@@ -115,8 +115,8 @@
   <!-- Worker 2 (front center) -->
   <g transform="translate(720, 400)" fill="#1a1510" opacity="0.9">
     <!-- Hard hat -->
-    <ellipse cx="40" cy="0" rx="34" ry="15" fill="#e47040" opacity="0.5"/>
-    <rect x="10" y="-9" width="60" height="15" rx="4" fill="#e47040" opacity="0.5"/>
+    <ellipse cx="40" cy="0" rx="34" ry="15" fill="#2a5080" opacity="0.5"/>
+    <rect x="10" y="-9" width="60" height="15" rx="4" fill="#2a5080" opacity="0.5"/>
     <!-- Head -->
     <circle cx="40" cy="22" r="24"/>
     <!-- Body -->
@@ -135,8 +135,8 @@
   <!-- Worker 3 (front right) -->
   <g transform="translate(960, 430)" fill="#1a1510" opacity="0.9">
     <!-- Hard hat -->
-    <ellipse cx="38" cy="0" rx="30" ry="13" fill="#d45a2a" opacity="0.6"/>
-    <rect x="12" y="-7" width="52" height="13" rx="4" fill="#d45a2a" opacity="0.6"/>
+    <ellipse cx="38" cy="0" rx="30" ry="13" fill="#1e3a5f" opacity="0.6"/>
+    <rect x="12" y="-7" width="52" height="13" rx="4" fill="#1e3a5f" opacity="0.6"/>
     <!-- Head -->
     <circle cx="38" cy="18" r="21"/>
     <!-- Body -->
@@ -155,8 +155,8 @@
   <!-- Worker 4 (back, between 1 and 2) -->
   <g transform="translate(600, 450)" fill="#1a1510" opacity="0.75" transform-origin="center">
     <!-- Hard hat -->
-    <ellipse cx="35" cy="5" rx="28" ry="12" fill="#e47040" opacity="0.4"/>
-    <rect x="10" y="-2" width="50" height="12" rx="3" fill="#e47040" opacity="0.4"/>
+    <ellipse cx="35" cy="5" rx="28" ry="12" fill="#2a5080" opacity="0.4"/>
+    <rect x="10" y="-2" width="50" height="12" rx="3" fill="#2a5080" opacity="0.4"/>
     <!-- Head -->
     <circle cx="35" cy="20" r="19"/>
     <!-- Body -->
@@ -173,8 +173,8 @@
   </g>
 
   <!-- Subtle terra cotta accent lines at bottom -->
-  <line x1="0" y1="750" x2="1920" y2="750" stroke="#d45a2a" stroke-width="1" opacity="0.15"/>
-  <line x1="0" y1="850" x2="1920" y2="850" stroke="#e47040" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="750" x2="1920" y2="750" stroke="#1e3a5f" stroke-width="1" opacity="0.15"/>
+  <line x1="0" y1="850" x2="1920" y2="850" stroke="#2a5080" stroke-width="0.5" opacity="0.1"/>
 
   <!-- Dark overlay for use as background -->
   <rect width="1920" height="1080" fill="#1a1510" opacity="0.3"/>

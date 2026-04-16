@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1a1520"/>
-      <stop offset="40%" stop-color="#2c2420"/>
-      <stop offset="100%" stop-color="#3d2e25"/>
+      <stop offset="0%" stop-color="#080e1a"/>
+      <stop offset="40%" stop-color="#0f1a2e"/>
+      <stop offset="100%" stop-color="#1e2d45"/>
     </linearGradient>
     <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#d45a2a" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#e09040" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#1e3a5f" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#c8a84e" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="truck-body" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#e47040"/>
-      <stop offset="100%" stop-color="#d45a2a"/>
+      <stop offset="0%" stop-color="#2a5080"/>
+      <stop offset="100%" stop-color="#1e3a5f"/>
     </linearGradient>
   </defs>
   <!-- Sky -->
@@ -32,20 +32,20 @@
   <!-- Osaka Skyline - Background buildings -->
   <!-- Tsutenkaku Tower (通天閣) -->
   <g transform="translate(1500, 200)">
-    <rect x="-8" y="0" width="16" height="350" fill="#3a2a22" opacity="0.6"/>
-    <rect x="-25" y="60" width="50" height="80" fill="#3a2a22" opacity="0.6" rx="3"/>
-    <rect x="-20" y="140" width="40" height="40" fill="#3a2a22" opacity="0.6"/>
-    <rect x="-15" y="180" width="30" height="170" fill="#3a2a22" opacity="0.6"/>
-    <circle cx="0" cy="45" r="18" fill="#d45a2a" opacity="0.3"/>
-    <rect x="-3" y="-30" width="6" height="30" fill="#3a2a22" opacity="0.6"/>
+    <rect x="-8" y="0" width="16" height="350" fill="#1a2840" opacity="0.6"/>
+    <rect x="-25" y="60" width="50" height="80" fill="#1a2840" opacity="0.6" rx="3"/>
+    <rect x="-20" y="140" width="40" height="40" fill="#1a2840" opacity="0.6"/>
+    <rect x="-15" y="180" width="30" height="170" fill="#1a2840" opacity="0.6"/>
+    <circle cx="0" cy="45" r="18" fill="#1e3a5f" opacity="0.3"/>
+    <rect x="-3" y="-30" width="6" height="30" fill="#1a2840" opacity="0.6"/>
   </g>
 
   <!-- Abeno Harukas (あべのハルカス) -->
   <g transform="translate(1350, 100)">
-    <rect x="-30" y="0" width="60" height="450" fill="#352520" opacity="0.7" rx="2"/>
-    <rect x="-25" y="10" width="50" height="440" fill="#3d2e25" opacity="0.5" rx="1"/>
+    <rect x="-30" y="0" width="60" height="450" fill="#152238" opacity="0.7" rx="2"/>
+    <rect x="-25" y="10" width="50" height="440" fill="#1e2d45" opacity="0.5" rx="1"/>
     <!-- Windows -->
-    <g opacity="0.15" fill="#e09040">
+    <g opacity="0.15" fill="#c8a84e">
       <rect x="-20" y="30" width="8" height="4" rx="1"/><rect x="-8" y="30" width="8" height="4" rx="1"/><rect x="4" y="30" width="8" height="4" rx="1"/>
       <rect x="-20" y="50" width="8" height="4" rx="1"/><rect x="4" y="50" width="8" height="4" rx="1"/>
       <rect x="-20" y="70" width="8" height="4" rx="1"/><rect x="-8" y="70" width="8" height="4" rx="1"/>
@@ -61,21 +61,21 @@
   </g>
 
   <!-- Background buildings -->
-  <rect x="1050" y="320" width="80" height="230" fill="#302420" opacity="0.6" rx="2"/>
-  <rect x="1150" y="280" width="60" height="270" fill="#352520" opacity="0.5" rx="2"/>
-  <rect x="1220" y="350" width="70" height="200" fill="#302420" opacity="0.6" rx="2"/>
-  <rect x="900" y="380" width="90" height="170" fill="#352520" opacity="0.5" rx="2"/>
-  <rect x="1600" y="360" width="100" height="190" fill="#302420" opacity="0.5" rx="2"/>
-  <rect x="1720" y="300" width="70" height="250" fill="#352520" opacity="0.4" rx="2"/>
-  <rect x="820" y="400" width="60" height="150" fill="#302420" opacity="0.4" rx="2"/>
+  <rect x="1050" y="320" width="80" height="230" fill="#122035" opacity="0.6" rx="2"/>
+  <rect x="1150" y="280" width="60" height="270" fill="#152238" opacity="0.5" rx="2"/>
+  <rect x="1220" y="350" width="70" height="200" fill="#122035" opacity="0.6" rx="2"/>
+  <rect x="900" y="380" width="90" height="170" fill="#152238" opacity="0.5" rx="2"/>
+  <rect x="1600" y="360" width="100" height="190" fill="#122035" opacity="0.5" rx="2"/>
+  <rect x="1720" y="300" width="70" height="250" fill="#152238" opacity="0.4" rx="2"/>
+  <rect x="820" y="400" width="60" height="150" fill="#122035" opacity="0.4" rx="2"/>
 
   <!-- Ground / Street -->
-  <rect x="0" y="550" width="1920" height="530" fill="#2a1e18"/>
-  <rect x="0" y="550" width="1920" height="8" fill="#d45a2a" opacity="0.15"/>
+  <rect x="0" y="550" width="1920" height="530" fill="#0d1525"/>
+  <rect x="0" y="550" width="1920" height="8" fill="#1e3a5f" opacity="0.15"/>
 
   <!-- Road -->
-  <rect x="0" y="680" width="1920" height="200" fill="#252020"/>
-  <rect x="0" y="775" width="1920" height="10" fill="#e09040" opacity="0.08"/>
+  <rect x="0" y="680" width="1920" height="200" fill="#0a1220"/>
+  <rect x="0" y="775" width="1920" height="10" fill="#c8a84e" opacity="0.08"/>
   <!-- Road dashes -->
   <g fill="#fff" opacity="0.15">
     <rect x="100" y="778" width="60" height="4" rx="2"/>
@@ -102,17 +102,17 @@
     <text x="130" y="100" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="14" fill="#fff" opacity="0.8">不用品回収</text>
     <text x="130" y="125" text-anchor="middle" font-family="sans-serif" font-weight="500" font-size="11" fill="#fff" opacity="0.6">0120-XXX-XXXX</text>
     <!-- Cabin -->
-    <rect x="260" y="40" width="100" height="110" fill="#c04820" rx="6"/>
-    <rect x="270" y="50" width="40" height="50" fill="#1a1520" opacity="0.6" rx="4"/>
-    <rect x="315" y="50" width="35" height="50" fill="#1a1520" opacity="0.6" rx="4"/>
+    <rect x="260" y="40" width="100" height="110" fill="#152d4a" rx="6"/>
+    <rect x="270" y="50" width="40" height="50" fill="#080e1a" opacity="0.6" rx="4"/>
+    <rect x="315" y="50" width="35" height="50" fill="#080e1a" opacity="0.6" rx="4"/>
     <!-- Wheels -->
-    <circle cx="60" cy="155" r="28" fill="#1a1520"/>
+    <circle cx="60" cy="155" r="28" fill="#080e1a"/>
     <circle cx="60" cy="155" r="18" fill="#333"/>
     <circle cx="60" cy="155" r="6" fill="#555"/>
-    <circle cx="220" cy="155" r="28" fill="#1a1520"/>
+    <circle cx="220" cy="155" r="28" fill="#080e1a"/>
     <circle cx="220" cy="155" r="18" fill="#333"/>
     <circle cx="220" cy="155" r="6" fill="#555"/>
-    <circle cx="320" cy="155" r="28" fill="#1a1520"/>
+    <circle cx="320" cy="155" r="28" fill="#080e1a"/>
     <circle cx="320" cy="155" r="18" fill="#333"/>
     <circle cx="320" cy="155" r="6" fill="#555"/>
   </g>
@@ -120,24 +120,24 @@
   <!-- Staff figure 1 -->
   <g transform="translate(1050, 530)">
     <circle cx="0" cy="-10" r="18" fill="#e8d0b0"/>
-    <rect x="-18" y="8" width="36" height="55" fill="#d45a2a" rx="4"/>
+    <rect x="-18" y="8" width="36" height="55" fill="#1e3a5f" rx="4"/>
     <text x="0" y="42" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="9" fill="#fff">エコ富</text>
     <rect x="-14" y="63" width="12" height="40" fill="#333" rx="3"/>
     <rect x="2" y="63" width="12" height="40" fill="#333" rx="3"/>
     <!-- Hard hat -->
-    <ellipse cx="0" cy="-22" rx="20" ry="10" fill="#e09040"/>
-    <rect x="-16" y="-28" width="32" height="8" fill="#e09040" rx="3"/>
+    <ellipse cx="0" cy="-22" rx="20" ry="10" fill="#c8a84e"/>
+    <rect x="-16" y="-28" width="32" height="8" fill="#c8a84e" rx="3"/>
   </g>
 
   <!-- Staff figure 2 -->
   <g transform="translate(980, 545)">
     <circle cx="0" cy="-10" r="16" fill="#e8d0b0"/>
-    <rect x="-16" y="6" width="32" height="50" fill="#d45a2a" rx="4"/>
+    <rect x="-16" y="6" width="32" height="50" fill="#1e3a5f" rx="4"/>
     <text x="0" y="38" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="8" fill="#fff">エコ富</text>
     <rect x="-12" y="56" width="10" height="35" fill="#333" rx="3"/>
     <rect x="2" y="56" width="10" height="35" fill="#333" rx="3"/>
-    <ellipse cx="0" cy="-20" rx="18" ry="9" fill="#e09040"/>
-    <rect x="-14" y="-26" width="28" height="7" fill="#e09040" rx="3"/>
+    <ellipse cx="0" cy="-20" rx="18" ry="9" fill="#c8a84e"/>
+    <rect x="-14" y="-26" width="28" height="7" fill="#c8a84e" rx="3"/>
     <!-- Carrying box -->
     <rect x="16" y="5" width="35" height="30" fill="#8B7355" rx="3"/>
     <rect x="18" y="7" width="31" height="2" fill="#fff" opacity="0.2"/>
@@ -145,27 +145,27 @@
 
   <!-- Osaka Castle silhouette (far background) -->
   <g transform="translate(700, 280)" opacity="0.25">
-    <rect x="-40" y="100" width="80" height="70" fill="#3a2a22"/>
-    <rect x="-50" y="90" width="100" height="15" fill="#3a2a22"/>
-    <rect x="-35" y="50" width="70" height="45" fill="#3a2a22"/>
-    <rect x="-42" y="42" width="84" height="12" fill="#3a2a22"/>
-    <rect x="-25" y="15" width="50" height="30" fill="#3a2a22"/>
-    <rect x="-30" y="8" width="60" height="10" fill="#3a2a22"/>
-    <polygon points="-30,8 0,-15 30,8" fill="#3a2a22"/>
-    <rect x="-3" y="-25" width="6" height="12" fill="#3a2a22"/>
+    <rect x="-40" y="100" width="80" height="70" fill="#1a2840"/>
+    <rect x="-50" y="90" width="100" height="15" fill="#1a2840"/>
+    <rect x="-35" y="50" width="70" height="45" fill="#1a2840"/>
+    <rect x="-42" y="42" width="84" height="12" fill="#1a2840"/>
+    <rect x="-25" y="15" width="50" height="30" fill="#1a2840"/>
+    <rect x="-30" y="8" width="60" height="10" fill="#1a2840"/>
+    <polygon points="-30,8 0,-15 30,8" fill="#1a2840"/>
+    <rect x="-3" y="-25" width="6" height="12" fill="#1a2840"/>
   </g>
 
   <!-- Neon signs (Osaka style - Dotonbori) -->
   <g transform="translate(50, 560)">
-    <rect x="0" y="0" width="120" height="40" fill="#d45a2a" opacity="0.2" rx="5"/>
-    <text x="60" y="28" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="18" fill="#d45a2a" opacity="0.5">回収無料</text>
+    <rect x="0" y="0" width="120" height="40" fill="#1e3a5f" opacity="0.2" rx="5"/>
+    <text x="60" y="28" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="18" fill="#1e3a5f" opacity="0.5">回収無料</text>
   </g>
   <g transform="translate(200, 570)">
-    <rect x="0" y="0" width="100" height="35" fill="#e09040" opacity="0.15" rx="5"/>
-    <text x="50" y="25" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="15" fill="#e09040" opacity="0.4">高価買取</text>
+    <rect x="0" y="0" width="100" height="35" fill="#c8a84e" opacity="0.15" rx="5"/>
+    <text x="50" y="25" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="15" fill="#c8a84e" opacity="0.4">高価買取</text>
   </g>
 
   <!-- Warm glow effect -->
-  <ellipse cx="1200" cy="700" rx="500" ry="200" fill="#d45a2a" opacity="0.05"/>
-  <ellipse cx="1100" cy="600" rx="300" ry="150" fill="#e09040" opacity="0.04"/>
+  <ellipse cx="1200" cy="700" rx="500" ry="200" fill="#1e3a5f" opacity="0.05"/>
+  <ellipse cx="1100" cy="600" rx="300" ry="150" fill="#c8a84e" opacity="0.04"/>
 </svg>
