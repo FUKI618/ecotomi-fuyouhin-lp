@@ -32,3 +32,15 @@
 .hero-number-label{font-size:.75rem;color:rgba(255,255,255,.6);margin-top:4px}
 .stars-glow{text-shadow:0 0 10px rgba(240,200,80,.5)}
 @media(prefers-reduced-motion:reduce){.text-gold-shimmer{animation:none}.particle-field span{animation:none;display:none}}
+
+/* ═══ OSAKA NEON STYLE ═══ */
+.particle-field{display:none!important}
+@keyframes neon-flicker{0%,100%{opacity:1;text-shadow:0 0 10px #f0c850,0 0 30px #f0c85066,0 0 60px #f0c85033}92%{opacity:1}93%{opacity:.8}94%{opacity:1}96%{opacity:.9}97%{opacity:1}}
+.hero-number{animation:neon-flicker 3s ease-in-out infinite}
+@keyframes osaka-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.osaka-banner{overflow:hidden;position:relative;background:linear-gradient(90deg,#3a8c4a,#2d6a35,#3a8c4a);border-top:2px solid #f0c850;border-bottom:2px solid #f0c850;padding:8px 0}
+.osaka-banner-inner{display:flex;gap:40px;animation:osaka-scroll 20s linear infinite;white-space:nowrap;width:max-content}
+.osaka-banner-inner span{color:#f0c850;font-weight:900;font-size:14px;letter-spacing:2px}
+@keyframes bounce-in{0%{transform:scale(0.8);opacity:0}50%{transform:scale(1.05)}100%{transform:scale(1);opacity:1}}
+.badge-luxury{animation:bounce-in 0.6s ease-out,badge-pulse 2s ease-in-out 0.6s infinite}
+@media(prefers-reduced-motion:reduce){.hero-number{animation:none}.osaka-banner-inner{animation:none}.badge-luxury{animation:none}}
