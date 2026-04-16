@@ -80,3 +80,8 @@
 .badge-luxury{animation:bounce-in 0.6s ease-out,badge-pulse 2s ease-in-out 0.6s infinite}
 
 @media(prefers-reduced-motion:reduce){.hero-number{animation:none}.osaka-banner-inner{animation:none}.badge-luxury{animation:none}}
+
+/* ═══ TRUCK ANIMATION ═══ */
+@keyframes truck-drive{0%{transform:translateX(120%)}100%{transform:translateX(-120%)}}
+.truck-anim{position:absolute;bottom:12%;right:0;left:0;height:200px;overflow:hidden;pointer-events:none;z-index:1}
+.truck-anim-inner{animation:truck-drive 18s linear infinite;position:absolute;bottom:0}
